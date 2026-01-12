@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](images/slide-07.png)
 **Ye Pehli Slide Hai - Programming vs Prompting:**
 
 ## Paradigm Shift: Code Se Natural Language Tak
