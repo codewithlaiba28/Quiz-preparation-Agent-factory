@@ -1,4 +1,4 @@
-## Deep Dive into the License Model
+![alt text](image.png)## Deep Dive into the License Model
 
 📘 **Book ke mutabiq**,
 Spec-Driven Development ki duniya mein **license sirf software ke liye nahi hota**,
