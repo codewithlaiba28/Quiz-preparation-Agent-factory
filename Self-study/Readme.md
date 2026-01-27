@@ -1003,3 +1003,161 @@ Used to **run and scale** AI systems.
 📌 This makes systems **production-ready and scalable**.
 
 
+## **Spec-Driven Development (SDD)**
+
+### **Vibe Coding (The Problem)**
+
+**Vibe coding** means:
+
+* Giving **loose or unclear requirements**
+* Letting AI “guess” what you want
+
+**Problems caused:**
+
+* Endless iterations
+* Unpredictable output
+* AI agents misunderstand intent
+* Wasted time fixing instead of building
+
+👉 AI is fast, **not psychic**.
+
+
+## **The Solution: Spec-Driven Development**
+
+Instead of vague prompts, you:
+
+* **Write detailed specs first**
+* AI agents execute **much better with clear instructions**
+
+📌 Clear specs = predictable, high-quality output.
+
+---
+
+## **Spec Kit Plus – What It Provides**
+
+Spec Kit Plus is a **structured system** that helps you write **AI-executable specifications**.
+
+### **It provides:**
+
+* Templates & standards for **clear, actionable specs**
+* Removes ambiguity
+* Makes agents **repeatable and reliable**
+
+
+
+## **Key Components of Spec Kit Plus**
+
+### **1. Feature Specs**
+
+* Define **what the feature does**
+* User intent
+* Success criteria
+* Constraints & non-goals
+
+
+
+### **2. Vertical Sub-Agents & Skills**
+
+* Each agent handles **one vertical responsibility**
+* Skills are documented in **SKILL.md**
+* Promotes specialization and reuse
+
+
+
+### **3. PR & ADR**
+
+* **PR (Pull Request):** tracks implementation changes
+* **ADR (Architecture Decision Record):**
+
+  * Why a technical decision was made
+  * What alternatives were rejected
+
+📌 This gives **long-term reasoning memory**.
+
+
+
+### **4. TDD (Test-Driven Development)**
+
+* Tests written **before implementation**
+* Defines expected behavior clearly
+* Prevents hallucinated logic
+
+⚠️ Important:
+**TDD ≠ Testing reasoning**
+
+
+
+## **Agent Execution Pipeline**
+
+This is the **agent workflow lifecycle**:
+
+1. **Constitution** – rules, values, boundaries
+2. **Specify** – clear requirements
+3. **Clarify** – remove ambiguity
+4. **Plan** – architecture & approach
+5. **Tasks** – break into small steps
+6. **Analyze** – reasoning phase
+7. **Implement** – code execution
+
+📌 This replaces random prompting.
+
+
+
+## **Agent Evaluations (Very Important)**
+
+Before deployment, agents must be **measured**, not guessed.
+
+
+
+## **Example: Digital Employees**
+
+Goal:
+
+> Differentiate **TDD** from **Testing Reasoning**
+
+* **TDD:** validates code correctness
+* **Testing Reasoning:** validates **intent understanding**
+
+An agent can pass tests but still **miss the real goal**.
+
+
+
+## **Accuracy Measurement for Agents**
+
+### **Golden Dataset**
+
+* A fixed set of **real-world scenarios**
+* Example: **50 real-world tasks**
+* Used **before deployment**
+
+👉 If the agent fails → **not production-ready**
+
+
+
+### **Accuracy Scoring (Beyond Pass/Fail)**
+
+Instead of only:
+❌ “Did tests pass?”
+
+We also check:
+✅ **Semantic similarity scoring**
+
+Meaning:
+
+* Did the agent understand **intent**, even if wording changed?
+* Was the **goal achieved**, not just syntax?
+
+
+
+## **Regression Testing for Agents**
+
+> “Every time we update SKILL.md, we run the Exam.”
+
+Purpose:
+
+* Ensure **old skills don’t degrade**
+* Prevent accidental behavior loss
+* Maintain long-term reliability
+
+📌 This is **CI/CD for agent intelligence**.
+
