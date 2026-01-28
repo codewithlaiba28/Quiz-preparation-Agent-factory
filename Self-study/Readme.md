@@ -1113,7 +1113,7 @@ Before deployment, agents must be **measured**, not guessed.
 
 Goal:
 
-> Differentiate **TDD** from **Testing Reasoning**
+ Differentiate **TDD** from **Testing Reasoning**
 
 * **TDD:** validates code correctness
 * **Testing Reasoning:** validates **intent understanding**
@@ -1151,7 +1151,7 @@ Meaning:
 
 ## **Regression Testing for Agents**
 
-> “Every time we update SKILL.md, we run the Exam.”
+ “Every time we update SKILL.md, we run the Exam.”
 
 Purpose:
 
@@ -1417,7 +1417,7 @@ You allow **developers** to use your **sub-agent, MCP, or skill** as a **module*
 
 Think of it like:
 
-> “AI SDK for agents”
+ “AI SDK for agents”
 
 ### How it’s used
 
@@ -1463,3 +1463,263 @@ You charge:
 | Enterprise Site   | Big companies   | Org-wide usage      | Annual recurring       | Medium  |
 | Developer License | Builders / Devs | Modular agent skill | Usage or tier-based    | High    |
 
+
+### What is a Digital FTE?
+
+**Digital FTE (Full-Time Equivalent)** is a **business unit**, not a technical one.
+
+Traditionally:
+
+* **1 FTE = 1 human working ~40 hours/week**
+
+In AI terms:
+
+* **1 Digital FTE = 1 AI agent doing the same job a full-time human would do**
+
+So instead of saying:
+
+ “We used 2 million API tokens”
+
+You say:
+
+ “We hired 1 Digital Customer Support Agent (1 Digital FTE)”
+
+
+
+### Key Idea (Very Important)
+
+👉 **You are NOT charging for API tokens or compute**
+👉 **You are charging for a virtual role**
+
+Just like a human employee.
+
+
+### How Digital FTE Works
+
+* You **build** an AI agent
+* You **assign it a role** (e.g. support agent, analyst, content writer)
+* You **price it like a human employee**
+* Client pays for:
+
+  * Capability
+  * Availability
+  * Output
+    Not for tokens, models, or infra
+
+
+
+## Skill-First Monetization Pipeline — Explained
+
+### Core Idea
+
+The **Skill-First Monetization Pipeline** is about **turning your personal knowledge into a reusable, sellable digital asset**.
+
+Instead of selling:
+
+* your time
+* API tokens
+* one-off consulting
+
+You sell a **skill**.
+
+ **A skill = a Digital Employee capability**
+ Something that can repeatedly perform a job with consistent output.
+
+
+
+## Phase 1: Knowledge Extraction
+
+**“Turn your brain into a folder”**
+
+This phase is about **externalizing what’s in your head**.
+
+### What you extract
+
+* Business knowledge
+* Rules & constraints
+* Decision logic
+* Edge cases
+* Experience (“what to do when X happens”)
+
+### Goal
+
+Convert **implicit human thinking** into **explicit machine-readable structure**.
+
+### How it’s done
+
+* Break knowledge into:
+
+  * rules
+  * steps
+  * conditions
+  * outputs
+* Write **clear specs**
+* Define:
+
+  * what the skill can do
+  * what it must NOT do
+
+### Tools
+
+* **Claude Code / AI coding agents**
+* Markdown specs
+* Rule-based instructions
+
+
+
+## Phase 2: Asset Hardening (Most Important Phase)
+
+**“Make it earn money”**
+
+This is where most people fail — and where value is created.
+
+### Core problem this phase solves
+
+💥 **AI is unpredictable**
+💥 Money requires **predictability**
+
+You must remove:
+
+* guessing
+* hallucination
+* randomness
+* inconsistent output
+
+
+
+### What “Hardening” means
+
+You make the skill:
+
+* **Reliable** → same input = same quality output
+* **Repeatable** → works every time
+* **Scalable** → can be used by many users
+* **Controlled** → stays within boundaries
+
+### What you add
+
+* Guardrails
+* Validation checks
+* Clear input/output contracts
+* Tests & examples
+* Failure handling
+
+### Key mindset
+
+ If output changes randomly, customers won’t pay.
+
+
+
+### Output of Phase 2 (This is the real asset)
+
+A skill that is:
+
+* Testable
+* Verifiable
+* Stable
+* Reusable
+
+Now it is a **Digital Employee capability**, not just “prompt magic”.
+
+
+
+## Phase 3: Deployment & Value Capture
+
+**“Attach a money pipe”**
+
+Now you decide **how this skill makes money**.
+
+### What happens here
+
+* Deploy the skill:
+
+  * as an agent
+  * as an API
+  * as an internal tool
+* Wrap it with:
+
+  * access control
+  * limits
+  * billing
+
+**The Challenge: A startup with 5,000 monthly leads was only reaching 15% due to human bandwidth. High churn in SDR (Sales Dev Rep) roles and inconsistent follow-up were killing the pipeline.**
+
+**The Solution (Spec-Driven Workflow):**
+
+
+## The Digital SDR Agent (Sales Development Rep)
+
+### Core Promise
+
+**Replace a $100k/year human SDR with a $500/month Digital SDR skill**
+
+Same job.
+Better consistency.
+Fraction of the cost.
+
+---
+
+## The Challenge
+
+### The Situation
+
+* **5,000 inbound leads per month**
+* Only **15% were ever contacted**
+* Revenue leakage was massive
+
+### Why this happened
+
+Not because people were bad — but because humans are:
+
+* inconsistent
+* overloaded
+* forgetful
+* limited by time
+
+### The Real Problem
+
+❌ Not lead quality
+❌ Not tooling
+❌ Not budget
+
+✅ **Lack of consistent execution**
+
+Sales work is repetitive — and repetition is where humans fail and agents win.
+
+---
+
+## The Solution: Spec-Driven Workflows
+
+Instead of “AI, go do sales”, the solution was **precise execution via specs**.
+
+---
+
+*  1️⃣ Specs (The Brain)
+
+*  2️⃣ Builder (The Hands)
+
+*  3️⃣ Asset (The Skill)
+
+*  4️⃣ Deployment (The Job)
+
+*  5️⃣ Outcome (The Value)
+
+
+
+## Agent Factory Roadmap (30 Days)
+
+**Day 1–7: Identify Knowledge Gap**
+Find repetitive, execution-heavy work where humans are inconsistent.
+
+**Day 8–14: Draft Specs & Build Skills**
+Convert business knowledge into clear specs and reusable AI skills.
+
+**Day 15–21: Choose Monetization Pillar**
+Decide how you’ll make money (Digital FTE, license, white-label, etc.).
+
+**Day 22–30: Deploy & Scale**
+Deploy the agent, attach billing, and scale the same skill to more users.
+
+**One line:**
+
+ Turn knowledge → skill → Digital FTE → revenue.
