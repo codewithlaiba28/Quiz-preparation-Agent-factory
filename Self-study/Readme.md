@@ -1317,5 +1317,149 @@ You list your AI agent on a **marketplace platform**.
 
 
 
+## License Model – Deep Dive (Digital FTE / AI Agents)
 
-**In the world of Spec-Driven Development, the "License" isn't just for software—it's for the Skill Folder and Agents**
+The **License model** means:
+You **do not sell a service**, you **sell rights** to use your AI agent, skill, or MCP.
+
+Buyer runs it in **their own system**.
+You earn money without managing daily operations.
+
+
+
+## 1️⃣ White-Label License (Rebrand as Their Own)
+
+### What it is
+
+You allow a company to **rebrand your AI agent or MCP skill** as **their own product**.
+
+* Your name is hidden
+* Their logo, UI, and branding
+* They sell it to their customers
+
+### What can be white-labeled
+
+* AI Agent
+* Agent Skill
+* MCP (Model Context Protocol)
+* Sub-agents
+
+### Revenue Model
+
+* **High upfront fee** (setup + rights)
+* **Royalty** (per user / per usage / per sale)
+
+### Example
+
+* CRM company white-labels your AI support agent
+* They sell it as *“Smart Support AI”*
+* You earn:
+
+  * $50,000 upfront
+  * * 5% revenue share
+
+### Best for
+
+* Mature startups
+* B2B SaaS companies
+* Agencies with distribution
+
+
+
+## 2️⃣ Enterprise Site License (Organization-Wide Use)
+
+### What it is
+
+One large company buys the right to use your agent or skill **across the entire organization**.
+
+* Unlimited internal users
+* Multiple teams
+* Multiple goals (within defined scope)
+
+### Key Features
+
+* Self-hosted
+* Secure
+* Works behind company firewall
+* Compliance-friendly
+
+### Revenue Model
+
+* **Annual recurring license**
+* High value contract
+
+### Example
+
+* Bank licenses your “Risk Analysis AI Skill”
+* Used by:
+
+  * Compliance team
+  * Audit team
+  * Risk team
+
+### Revenue
+
+* $100k–$500k per year (depends on size)
+
+### Best for
+
+* Enterprises
+* Government
+* Regulated industries
+
+
+
+## 3️⃣ Developer License (Build-on-Top Rights)
+
+### What it is
+
+You allow **developers** to use your **sub-agent, MCP, or skill** as a **module** inside their own agents.
+
+Think of it like:
+
+> “AI SDK for agents”
+
+### How it’s used
+
+* As a sub-agent
+* As a tool
+* As a callable MCP skill
+
+### Revenue Models
+
+* **Usage-based** (per call / per token / per task)
+* **Flat tiers**:
+
+  * Free tier
+  * Pro tier
+  * Enterprise tier
+
+### Example
+
+* Developer uses your:
+
+  * “Invoice Analyzer Agent”
+* Calls it inside their workflow
+
+You charge:
+
+* $0.01 per call
+  OR
+* $99/month flat
+
+### Best for
+
+* AI builders
+* Agent factories
+* Platform ecosystems
+
+
+
+## 🔑 Comparison Chart (License Variants)
+
+| License Type      | Who Buys        | What They Get       | Revenue Style          | Control |
+| ----------------- | --------------- | ------------------- | ---------------------- | ------- |
+| White Label       | SaaS / Agencies | Rebrand & resell    | High upfront + royalty | Low     |
+| Enterprise Site   | Big companies   | Org-wide usage      | Annual recurring       | Medium  |
+| Developer License | Builders / Devs | Modular agent skill | Usage or tier-based    | High    |
+
